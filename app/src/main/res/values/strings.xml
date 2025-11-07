@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">MyMenuApp</string>
+
+    <string name="restaurant_name">The Royal Pub</string>
+    <string name="menu_title">Menu</string>
+
+    <!--====================== STARTERS ======================-->
+
+    <!--==== ITEM ONE ====-->
+    <string name="image_description_starter_1">sausage rolls</string>
+    <string name="title_starter_1">Sausage roll</string>
+    <string name="price_starter_1">£6</string>
+    <string name="info_starter_1">Puff pastry, pork sausage, mustard dip</string>
+
+    <!--==== ITEM TWO ====-->
+    <string name="image_description_starter_2">scotch egg</string>
+    <string name="title_starter_2">Scotch egg</string>
+    <string name="price_starter_2">£7</string>
+    <string name="info_starter_2">Soft egg, sausage meat, golden crumb, mustard dip</string>
+
+    <!--==== ITEM THREE ====-->
+    <string name="image_description_starter_3">fried calamari</string>
+    <string name="title_starter_3">Fried calamari</string>
+    <string name="price_starter_3">£8</string>
+    <string name="info_starter_3">Crispy salt and pepper squid, lemon, garlic aioli</string>
+
+    <!--====================== MAINS ======================-->
+
+    <!--==== ITEM ONE ====-->
+    <string name="image_description_main_1">pie and mash</string>
+    <string name="title_main_1">Pie and mash</string>
+    <string name="price_main_1">£11</string>
+    <string name="info_main_1">Steak pie, creamy mash, garden peas, gravy</string>
+    <!--==== ITEM TWO ====-->
+    <string name="image_description_main_2">fish and chips</string>
+    <string name="title_main_2">Fish and chips</string>
+    <string name="price_main_2">£12</string>
+    <string name="info_main_2">Battered cod, chunky chips, tartar sauce, mushy peas</string>
+
+    <!--==== ITEM THREE ====-->
+    <string name="image_description_main_3">hamburger</string>
+    <string name="title_main_3">Pub burger</string>
+    <string name="price_main_3">£13</string>
+    <string name="info_main_3">Beef patty, brioche bun, cheese, served with fries</string>
+
+    <!--====================== PUDDINGS ======================-->
+
+    <!--==== ITEM ONE ====-->
+    <string name="image_description_pudding_1">sticky toffee pudding</string>
+    <string name="title_pudding_1">\"Toffee\"</string>
+    <string name="price_pudding_1">£8</string>
+    <string name="info_pudding_1">Warm date sponge, toffee sauce, vanilla ice cream</string>
+
+    <!--==== ITEM TWO ====-->
+    <string name="image_description_pudding_2">chocolate fondant</string>
+    <string name="title_pudding_2">\"Chocolate\"</string>
+    <string name="price_pudding_2">£9</string>
+    <string name="info_pudding_2">Chocolate cake, caramel filling, whipped cream</string>
+
+    <!--==== ITEM THREE ====-->
+    <string name="image_description_pudding_3">berry cheesecake</string>
+    <string name="title_pudding_3">\"Berry\"</string>
+    <string name="price_pudding_3">£10</string>
+    <string name="info_pudding_3">Cream cheese, blackberry swirl, toffee biscuit base</string>
+
+    <!--====================== DEFAULTS ======================-->
+
+    <string name="image_description_default">Default image</string>
+    <string name="title_default">Lorem ipsum</string>
+    <string name="info_default">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="price_default">£00</string>
+
+
+</resources>
