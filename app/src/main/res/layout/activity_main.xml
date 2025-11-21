@@ -10,7 +10,7 @@
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/vp_pager_bottom"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/dimen_0dp"
         android:layout_weight="1" />
 
     <com.google.android.material.tabs.TabLayout
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/gray"
-        android:paddingBottom="32dp"
+        android:paddingBottom="@dimen/dimen_32dp"
         app:tabIndicatorColor="@color/white"
         app:tabIndicatorGravity="top"
         app:tabRippleColor="@color/light_gray"
