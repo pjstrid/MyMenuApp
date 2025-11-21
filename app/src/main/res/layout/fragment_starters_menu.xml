@@ -77,10 +77,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@color/gray"
-                            android:contentDescription="@string/image_description_starter_1"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/sausage_rolls" />
-
+                            android:contentDescription="@string/image_description_default"
+                            android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
                     <TextView
@@ -90,7 +88,7 @@
                         android:fontFamily="cursive"
                         android:paddingStart="@dimen/dimen_8dp"
                         android:paddingEnd="@dimen/dimen_8dp"
-                        android:text="@string/title_starter_1"
+                        android:text="@string/title_default"
                         android:textColor="@color/dark_red"
                         android:textSize="@dimen/font_large"
                         android:textStyle="bold"
@@ -105,7 +103,7 @@
                         android:fontFamily="cursive"
                         android:paddingStart="@dimen/dimen_8dp"
                         android:paddingEnd="@dimen/dimen_8dp"
-                        android:text="@string/info_starter_1"
+                        android:text="@string/info_default"
                         android:textColor="@color/dark_red"
                         android:textSize="@dimen/font_medium"
                         android:textStyle="bold"
@@ -118,7 +116,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="cursive"
-                        android:text="@string/price_starter_1"
+                        android:text="@string/price_default"
                         android:textColor="@color/dark_red"
                         android:textSize="@dimen/font_small"
                         android:textStyle="bold"
@@ -157,9 +155,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@color/gray"
-                            android:contentDescription="@string/image_description_starter_2"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/scotch_egg" />
+                            android:contentDescription="@string/image_description_default"
+                            android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
                     <TextView
@@ -169,7 +166,7 @@
                         android:fontFamily="cursive"
                         android:paddingStart="@dimen/dimen_8dp"
                         android:paddingEnd="@dimen/dimen_8dp"
-                        android:text="@string/title_starter_2"
+                        android:text="@string/title_default"
                         android:textColor="@color/dark_red"
                         android:textSize="@dimen/font_large"
                         android:textStyle="bold"
@@ -184,7 +181,7 @@
                         android:fontFamily="cursive"
                         android:paddingStart="@dimen/dimen_8dp"
                         android:paddingEnd="@dimen/dimen_8dp"
-                        android:text="@string/info_starter_2"
+                        android:text="@string/info_default"
                         android:textColor="@color/dark_red"
                         android:textSize="@dimen/font_medium"
                         android:textStyle="bold"
@@ -197,7 +194,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="cursive"
-                        android:text="@string/price_starter_2"
+                        android:text="@string/price_default"
                         android:textColor="@color/dark_red"
                         android:textSize="@dimen/font_small"
                         android:textStyle="bold"
@@ -237,9 +234,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@color/gray"
-                            android:contentDescription="@string/image_description_starter_3"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/fried_calamari" />
+                            android:contentDescription="@string/image_description_default"
+                            android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
                     <TextView
@@ -249,7 +245,7 @@
                         android:fontFamily="cursive"
                         android:paddingStart="@dimen/dimen_8dp"
                         android:paddingEnd="@dimen/dimen_8dp"
-                        android:text="@string/title_starter_3"
+                        android:text="@string/title_default"
                         android:textColor="@color/dark_red"
                         android:textSize="@dimen/font_large"
                         android:textStyle="bold"
@@ -262,10 +258,9 @@
                         android:layout_width="@dimen/dimen_0dp"
                         android:layout_height="wrap_content"
                         android:fontFamily="cursive"
-                        android:gravity="center_vertical"
                         android:paddingStart="@dimen/dimen_8dp"
                         android:paddingEnd="@dimen/dimen_8dp"
-                        android:text="@string/info_starter_3"
+                        android:text="@string/info_default"
                         android:textColor="@color/dark_red"
                         android:textSize="@dimen/font_medium"
                         android:textStyle="bold"
@@ -277,9 +272,8 @@
                         android:id="@+id/starter_price_item_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="@dimen/dimen_8dp"
                         android:fontFamily="cursive"
-                        android:text="@string/price_starter_3"
+                        android:text="@string/price_default"
                         android:textColor="@color/dark_red"
                         android:textSize="@dimen/font_small"
                         android:textStyle="bold"

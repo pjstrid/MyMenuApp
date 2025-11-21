@@ -69,6 +69,7 @@ class MainActivity : AppCompatActivity() {
 
         val adapter = PagerAdapter(this)
         binding.vpPagerBottom.adapter = adapter
+        binding.vpPagerBottom.offscreenPageLimit = adapter.itemCount
 
         TabLayoutMediator(binding.tabBottomNavigation, binding.vpPagerBottom)
         { tab, position ->
@@ -79,16 +80,30 @@ class MainActivity : AppCompatActivity() {
                 else -> ""
             }
         }.attach()
-        
+    }
+
+//  THIS WAS ON ROW 69 BEFORE (inside onCreate):
+//        //=============== CONNECT WITH XML FILE ===============
 //
+//        imageItem1 = view.findViewById(R.id.starter_image_item_1)
+//        imageItem2 = view.findViewById(R.id.starter_image_item_2)
+//        imageItem3 = view.findViewById(R.id.starter_image_item_3)
 //
+//        titleItem1 = view.findViewById(R.id.starter_title_item_1)
+//        titleItem2 = view.findViewById(R.id.starter_title_item_2)
+//        titleItem3 = view.findViewById(R.id.starter_title_item_3)
 //
+//        infoItem1 = view.findViewById(R.id.starter_info_item_1)
+//        infoItem2 = view.findViewById(R.id.starter_info_item_2)
+//        infoItem3 = view.findViewById(R.id.starter_info_item_3)
 //
+//        priceItem1 = view.findViewById(R.id.starter_price_item_1)
+//        priceItem2 = view.findViewById(R.id.starter_price_item_2)
+//        priceItem3 = view.findViewById(R.id.starter_price_item_3)
 //
-//
-//
-//
-//
+// -----------------------------
+
+
 //
 //        //====================== STARTERS LISTS ======================
 //        // GETS INFO FROM STRINGS.XML
@@ -246,5 +261,5 @@ class MainActivity : AppCompatActivity() {
 //    }
 
 
-    }
+//    }
 }
