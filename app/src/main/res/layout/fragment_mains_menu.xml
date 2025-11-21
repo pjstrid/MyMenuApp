@@ -37,8 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/beige"
-        android:padding="8dp"
-        app:cardCornerRadius="16dp">
+        android:padding="@dimen/dimen_8dp"
+        app:cardCornerRadius="@dimen/dimen_16dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -85,11 +85,11 @@
 
                     <TextView
                         android:id="@+id/main_title_item_1"
-                        android:layout_width="0dp"
+                        android:layout_width="@dimen/dimen_0dp"
                         android:layout_height="wrap_content"
                         android:fontFamily="cursive"
-                        android:paddingStart="8dp"
-                        android:paddingEnd="8dp"
+                        android:paddingStart="@dimen/dimen_8dp"
+                        android:paddingEnd="@dimen/dimen_8dp"
                         android:text="@string/title_main_1"
                         android:textColor="@color/dark_red"
                         android:textSize="@dimen/font_large"
@@ -100,11 +100,11 @@
 
                     <TextView
                         android:id="@+id/main_info_item_1"
-                        android:layout_width="0dp"
+                        android:layout_width="@dimen/dimen_0dp"
                         android:layout_height="wrap_content"
                         android:fontFamily="cursive"
-                        android:paddingStart="8dp"
-                        android:paddingEnd="8dp"
+                        android:paddingStart="@dimen/dimen_8dp"
+                        android:paddingEnd="@dimen/dimen_8dp"
                         android:text="@string/info_main_1"
                         android:textColor="@color/dark_red"
                         android:textSize="@dimen/font_medium"
